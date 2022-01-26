@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: openSans, sans-serif;
+    height: 100vh; 
+    /* background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80); */
+    /* background-image: url(https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+    background-image: url(https://images.unsplash.com/photo-1540484668164-185993edca46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat:initial;
+    overflow-y: hidden;
+}
+
+#outer-container{
+    width: 570%;
+    height: 1000px;
+    display: flex;
+    position: relative;
+}
+
+.next{
+    position: -webkit-sticky; /*Safari browser*/
+    position: fixed;
+    top: 0px;
+    font-size: larger;
+    padding: 20px;
+}
+
+
+#sun{
+    width: 1000px;
+    float: right;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 50rem;
+    margin-left: 20rem;
+}
+
+#sun img{
+    max-width:100%;
+    width: 850px; 
+}
+
+#sun h1{
+    color: white;
+    position: absolute;
+    top: 51rem;
+    left: 43.5%;
+    font-size: 50px;
+}
+
+h1{
+    color: white;  
+}
+
+#mercury{
+    width: 700px;
+    float: right;
+    margin-top: 270px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mercury img{
+    max-width:100%;
+    width: 420px;    
+}
+#venus{
+    width: 800px;
+    float: right;
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#venus img{
+    max-width:100%;
+    width: 730px; 
+    
+}
+#earth{
+    width: 900px;
+    float: right;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#earth img{
+    max-width:100%;
+    width: 870px; 
+    
+}
+#earth h1{
+    position: absolute;
+    bottom: 200px;
+}
+#moon{
+    width: 800px;
+    float: right;
+    margin-top: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#moon img{
+    max-width:100%;
+    width: 370px; 
+    
+}
+#mars{
+    width: 800px;
+    float: right;
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#mars img{
+    max-width:100%;
+    width: 470px; 
+    
+}
+#mars h1{
+    position: absolute;
+    bottom: 200px;
+}
+#jupiter{
+    width: 900px;
+    float: right;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 20px;
+}
+#jupiter img{
+    max-width:100%;
+    width: 850px; 
+    
+}
+#jupiter h1{
+    position: absolute;
+    bottom: 200px;
+}
+#saturn{
+    width: 1800px;
+    float: right;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#saturn img{
+    max-width:100%;
+    width: 1500px; 
+    
+}
+#saturn h1{
+    position: absolute;
+    bottom: 150px;
+}
+
+#uranus{
+    width: 800px;
+    float: right;
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#uranus img{
+    max-width:100%;
+    width: 570px; 
+    
+}
+#uranus h1{
+    position: absolute;
+    bottom: 150px;
+}
+
+#neptune{
+    width: 800px;
+    float: right;
+    margin-top: 240px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#neptune img{
+    max-width:100%;
+    width: 570px; 
+    
+}
+#neptune h1{
+    position: absolute;
+    bottom: 150px;
+}
