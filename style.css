@@ -212,9 +212,9 @@ h1{
     bottom: 150px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
 
-    .next {
+    #btn {
         display: none;
     }
 
