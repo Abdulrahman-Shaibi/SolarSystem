@@ -211,3 +211,168 @@ h1{
     position: absolute;
     bottom: 150px;
 }
+
+@media (max-width: 400px){
+    #outer-container {
+        width: 1150%;
+        height: 1000px;
+        display: flex;
+        position: relative;
+    }
+
+    #sun {
+        width: 2489px;
+        float: right;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 150px;
+        margin-left: 10px;
+    }
+    #sun h1 {
+        color: white;
+        position: absolute;
+        top: 40rem;
+        left: 39%;
+        font-size: 50px;
+    }
+
+    #sun img {
+        max-width: 100%;
+        width: 650px;
+        margin-bottom: 200px;
+    }
+
+    #outer-container h1{
+       text-align: center;
+       padding-top: 20px; 
+    }
+
+    #mercury {
+        width: 1200px;
+        float: right;
+        margin-top: 320px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 100px;
+    }
+
+    #venus {
+        width: 2050px;
+        float: right;
+        margin-top: 270px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+    }
+
+    #earth {
+        width: 2203px;
+        float: right;
+        margin-top: 170px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #earth h1{
+        position: absolute;
+        bottom: 250px;
+        left: 40%;
+    }
+
+    #moon {
+        width: 1027px;
+        float: right;
+        margin-top: 250px;
+        margin-right: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #mars {
+        width: 1599px;
+        float: right;
+        margin-top: 200px;
+        margin-right: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #mars h1 {
+        position: absolute;
+        bottom: 400px;
+        left: 39%;
+    }
+
+    #jupiter {
+        width: 2508px;
+        float: right;
+        margin-top: 120px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 100px;
+    }
+
+    #jupiter h1{
+        position: absolute;
+        bottom: 300px;
+        left: 39%;
+    }
+
+    #saturn {
+        width: 4023px;
+        float: right;
+        margin-top: 170px;
+        margin-right: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #saturn h1{
+        position: absolute;
+        bottom: 400px;
+        left: 39%;
+    }
+
+    #uranus {
+        width: 935px;
+        float: right;
+        margin-top: 260px;
+        margin-right: 90px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    #uranus h1, #neptune h1{
+        position: absolute;
+        bottom: 400px;
+        left: 19%;
+    }
+
+    #neptune {
+        width: 1023px;
+        float: right;
+        margin-top: 247px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 100px;
+    }
+
+}
