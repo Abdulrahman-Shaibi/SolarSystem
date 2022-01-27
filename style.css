@@ -7,8 +7,7 @@
 body{
     font-family: openSans, sans-serif;
     height: 100vh; 
-    /* background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80); */
-    /* background-image: url(https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+    
     background-image: url(https://images.unsplash.com/photo-1540484668164-185993edca46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-position: center;
     background-size: cover;
@@ -219,7 +218,7 @@ h1{
     }
 
     #outer-container {
-        width: 1150%;
+        width: 1550%;
         height: 1000px;
         display: flex;
         position: relative;
@@ -377,11 +376,11 @@ h1{
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-right: 100px;
+        margin-right: 1000px;
     }
 
     /* This part will is testing will be deleted*/
-    
+
     #outerSpace{
         height: 420vh;
         width: 3000px;
